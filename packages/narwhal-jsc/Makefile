@@ -10,7 +10,7 @@ else
     CC        =clang
 endif
 
-CPPFLAGS  = -0s -force_cpusubtype_ALL -mmacosx-version-min=10.4 -arch i386
+CPPFLAGS  = -Os -force_cpusubtype_ALL -mmacosx-version-min=10.4 -arch i386
 #CPPFLAGS += -g -O0
 #CPPFLAGS += -DDEBUG_ON
 #CPPFLAGS += -save-temps
